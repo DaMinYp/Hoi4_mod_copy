@@ -287,13 +287,12 @@ focus_tree = {
 		}
 	}
 	#工业线结束
-	#政治线
 	#军事线
 	focus = {
 		id = focu_Military_line_1
 		icon = GFX_surrender_tiny_flag
 		cost = 1
-		x = 30
+		x = 50
 		y = 0
 		completion_reward = {
 		}
@@ -959,4 +958,109 @@ focus_tree = {
 		}
 	}
 	#空军线结束
+	#政治线
+	focus = {
+		id = focu_politics_line_top
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 15
+		y = 0
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_1
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -10
+		y = 1
+		mutually_exclusive = {
+			focus = focu_politics_line_2
+			focus = focu_politics_line_3
+			focus = focu_politics_line_4
+			focus = focu_politics_line_5
+		}
+		prerequisite = {
+			focus = focu_politics_line_top
+		}
+		relative_position_id = focu_politics_line_top
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_2
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -5
+		y = 1
+		mutually_exclusive = {
+			focus = focu_politics_line_1
+			focus = focu_politics_line_3
+			focus = focu_politics_line_4
+			focus = focu_politics_line_5
+		}
+		prerequisite = {
+			focus = focu_politics_line_top
+		}
+		relative_position_id = focu_politics_line_top
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_3
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 0
+		y = 1
+		mutually_exclusive = {
+			focus = focu_politics_line_2
+			focus = focu_politics_line_1
+			focus = focu_politics_line_4
+			focus = focu_politics_line_5
+		}
+		prerequisite = {
+			focus = focu_politics_line_top
+		}
+		relative_position_id = focu_politics_line_top
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_4
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 5
+		y = 1
+		mutually_exclusive = {
+			focus = focu_politics_line_2
+			focus = focu_politics_line_3
+			focus = focu_politics_line_1
+			focus = focu_politics_line_5
+		}
+		prerequisite = {
+			focus = focu_politics_line_top
+		}
+		relative_position_id = focu_politics_line_top
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_5
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 10
+		y = 1
+		mutually_exclusive = {
+			focus = focu_politics_line_2
+			focus = focu_politics_line_3
+			focus = focu_politics_line_4
+			focus = focu_politics_line_1
+		}
+		prerequisite = {
+			focus = focu_politics_line_top
+		}
+		relative_position_id = focu_politics_line_top
+		completion_reward = {
+		}
+	}
 }
