@@ -1,4 +1,12 @@
 ideas = {
 	country = {
+		focu_industry_line_2_idea = {
+			name = "国家科研基地"
+			picture = focu_industry_line_2_idea
+			modifier = {
+				#研究速度
+				research_speed_factor = 0.08
+			}
+		}
 	}
 }

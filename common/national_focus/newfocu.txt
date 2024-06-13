@@ -16,7 +16,7 @@ focus_tree = {
 	#工业线
 	focus = {
 		id = focu_industry_line_1
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focu_industry_line_1_icon
 		cost = x
 		x = -2
 		y = 2
@@ -178,12 +178,15 @@ focus_tree = {
 	}
 	focus = {
 		id = focu_industry_line_2
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focu_industry_line_2_icon
 		cost = x
 		x = 2
 		y = 2
 		relative_position_id = focu_army_line_1_center_end
 		completion_reward = {
+			add_political_power = 50
+			add_research_slot = 1
+			add_ideas = focu_industry_line_2_idea
 		}
 	}
 	focus = {
