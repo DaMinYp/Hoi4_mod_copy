@@ -1,0 +1,16 @@
+buff_decisions = {
+	buff_dec_1 = {
+		icon = generic_political_actions
+		fire_only_once = no
+		available = {
+			is_ai = no
+		}
+		cost = 0
+		visible = {
+			always = yes
+		}
+		complete_effect = {
+			load_focus_tree = newfocu
+		}
+	}
+}

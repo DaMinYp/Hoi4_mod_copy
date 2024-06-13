@@ -1,0 +1,13 @@
+﻿add_namespace = focu_event
+country_event = {
+	id = focu_event.1
+	title = "11111111111"
+	desc = "11111111111111"
+	is_triggered_only = yes
+	option = {
+		name = "1111111111"
+	}
+	option = {
+		name = "1111111111"
+	}
+}

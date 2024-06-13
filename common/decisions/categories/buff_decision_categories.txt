@@ -1,0 +1,6 @@
+buff_decisions = {
+	visible = {
+		is_ai = no
+	}
+	priority = 1000
+}

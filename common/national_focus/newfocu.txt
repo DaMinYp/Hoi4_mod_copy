@@ -1,0 +1,962 @@
+focus_tree = {
+	id = newfocu
+	continuous_focus_position = {
+		x = 0
+		y = 1200
+	}
+	country = {
+		factor = 0
+		base = 0
+		modifier = {
+			add = 10
+			is_ai = no
+		}
+	}
+	default = no
+	#工业线
+	focus = {
+		id = focu_industry_line_1
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = -2
+		y = 2
+		relative_position_id = focu_army_line_1_center_end
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_1_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_1
+		}
+		relative_position_id = focu_industry_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_1_2_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_1
+		}
+		relative_position_id = focu_industry_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_center
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = -2
+		prerequisite = {
+			focus = focu_industry_line_1_2_01
+			focus = focu_industry_line_2_01_01
+		}
+		relative_position_id = focu_industry_line_1_2_03_end
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_1_2_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_1_2_01
+		}
+		prerequisite = {
+			focus = focu_industry_line_1_01
+		}
+		relative_position_id = focu_industry_line_1_2_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_1_2_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_1_2_02
+		}
+		prerequisite = {
+			focus = focu_industry_line_center
+		}
+		relative_position_id = focu_industry_line_1_2_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_1_2_03_end
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_1_2_03
+		}
+		prerequisite = {
+			focus = focu_industry_line_2_01_03
+		}
+		relative_position_id = focu_industry_line_1_2_03
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_1_2_04_end
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_1_2_03_end
+		}
+		prerequisite = {
+			focus = focu_industry_line_2_01_03
+		}
+		prerequisite = {
+			focus = focu_industry_line_1_04
+		}
+		prerequisite = {
+			focus = focu_industry_line_2_02_04
+		}
+		relative_position_id = focu_industry_line_1_2_03_end
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_1_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_1_01
+		}
+		relative_position_id = focu_industry_line_1_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_1_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_1_02
+		}
+		relative_position_id = focu_industry_line_1_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_1_04
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_1_03
+		}
+		prerequisite = {
+			focus = focu_industry_line_1_2_03
+		}
+		relative_position_id = focu_industry_line_1_03
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_2
+		icon = GFX_surrender_tiny_flag
+		cost = x
+		x = 2
+		y = 2
+		relative_position_id = focu_army_line_1_center_end
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_2_01_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_2
+		}
+		relative_position_id = focu_industry_line_2
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_2_01_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_2_01_01
+		}
+		prerequisite = {
+			focus = focu_industry_line_2_02_01
+		}
+		relative_position_id = focu_industry_line_2_01_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_2_01_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_2_01_02
+		}
+		prerequisite = {
+			focus = focu_industry_line_center
+		}
+		relative_position_id = focu_industry_line_2_01_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_2_02_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_2
+		}
+		relative_position_id = focu_industry_line_2
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_2_02_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_2_02_01
+		}
+		relative_position_id = focu_industry_line_2_02_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_2_02_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_2_02_02
+		}
+		relative_position_id = focu_industry_line_2_02_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_industry_line_2_02_04
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_industry_line_2_02_03
+		}
+		prerequisite = {
+			focus = focu_industry_line_2_01_03
+		}
+		relative_position_id = focu_industry_line_2_02_03
+		completion_reward = {
+		}
+	}
+	#工业线结束
+	#政治线
+	#军事线
+	focus = {
+		id = focu_Military_line_1
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 30
+		y = 0
+		completion_reward = {
+		}
+	}
+	#陆军线
+	focus = {
+		id = focu_army_line_1
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_Military_line_1
+		}
+		relative_position_id = focu_Military_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_Military_line_1
+		}
+		relative_position_id = focu_Military_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_2
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -5
+		y = 1
+		prerequisite = {
+			focus = focu_Military_line_1
+		}
+		relative_position_id = focu_Military_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_2_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_2
+		}
+		relative_position_id = focu_army_line_2
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_2_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_2_01
+		}
+		relative_position_id = focu_army_line_2_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_2_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_2_02
+		}
+		relative_position_id = focu_army_line_2_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_1
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -4
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1
+			focus = focu_army_line_2
+			focus = focu_army_line_3
+		}
+		relative_position_id = focu_army_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_2
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1
+			focus = focu_army_line_2
+			focus = focu_army_line_3
+		}
+		relative_position_id = focu_army_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_2_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1_center_1
+		}
+		prerequisite = {
+			focus = focu_army_line_1_center_2
+		}
+		relative_position_id = focu_army_line_1_center_2
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_2_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1_center_2_01
+		}
+		relative_position_id = focu_army_line_1_center_2_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_3
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1
+		}
+		relative_position_id = focu_army_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_3_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1_center_3
+		}
+		relative_position_id = focu_army_line_1_center_3
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_3_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1_center_3
+		}
+		relative_position_id = focu_army_line_1_center_3
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_3_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1_center_3_02
+		}
+		prerequisite = {
+			focus = focu_army_line_1_center_3_01
+		}
+		relative_position_id = focu_army_line_1_center_3_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_end
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1_center_3_03
+			focus = focu_army_line_2_03
+			focus = focu_army_line_1_center_2_02
+			focus = focu_army_line_center_5_02
+			focus = focu_army_line_3_03
+		}
+		relative_position_id = focu_army_line_1_center_3_03
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_4
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1
+			focus = focu_army_line_2
+			focus = focu_army_line_3
+		}
+		relative_position_id = focu_army_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_1_center_5
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1
+			focus = focu_army_line_2
+			focus = focu_army_line_3
+		}
+		relative_position_id = focu_army_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_center_5_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_1_center_4
+		}
+		prerequisite = {
+			focus = focu_army_line_1_center_5
+		}
+		relative_position_id = focu_army_line_1_center_5
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_center_5_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_center_5_01
+		}
+		relative_position_id = focu_army_line_center_5_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_3
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 5
+		y = 1
+		prerequisite = {
+			focus = focu_Military_line_1
+		}
+		relative_position_id = focu_Military_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_amry_line_3_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_3
+		}
+		relative_position_id = focu_army_line_3
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_3_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_amry_line_3_01
+		}
+		relative_position_id = focu_amry_line_3_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_army_line_3_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_army_line_3_02
+		}
+		relative_position_id = focu_army_line_3_02
+		completion_reward = {
+		}
+	}
+	#陆军线结束
+	#海军线
+	focus = {
+		id = focu_naval_line_1
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 9
+		y = 1
+		prerequisite = {
+			focus = focu_Military_line_1
+		}
+		relative_position_id = focu_Military_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_line_center
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = focu_naval_line_1
+		}
+		relative_position_id = focu_naval_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_line_center_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_naval_line_center
+		}
+		relative_position_id = focu_naval_line_center
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_line_center_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_naval_line_center
+		}
+		relative_position_id = focu_naval_line_center
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_center_end
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = focu_naval_line_center_01
+		}
+		prerequisite = {
+			focus = focu_naval_line_center_02
+		}
+		relative_position_id = focu_naval_line_center
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_line_end
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_naval_center_end
+			focus = focu_naval_line_1_2_03
+			focus = focu_naval_line_1_1_03
+		}
+		relative_position_id = focu_naval_center_end
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_line_1_2_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		mutually_exclusive = {
+			focus = focu_naval_line_1_1_01
+		}
+		prerequisite = {
+			focus = focu_naval_line_1
+		}
+		relative_position_id = focu_naval_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_line_1_2_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_naval_line_1_2_01
+		}
+		relative_position_id = focu_naval_line_1_2_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_line_1_2_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = focu_naval_line_1_2_02
+		}
+		relative_position_id = focu_naval_line_1_2_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_line_1_1_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		mutually_exclusive = {
+			focus = focu_naval_line_1_2_01
+		}
+		prerequisite = {
+			focus = focu_naval_line_1
+		}
+		relative_position_id = focu_naval_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_line_1_1_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_naval_line_1_1_01
+		}
+		relative_position_id = focu_naval_line_1_1_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_naval_line_1_1_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = focu_naval_line_1_1_02
+		}
+		relative_position_id = focu_naval_line_1_1_02
+		completion_reward = {
+		}
+	}
+	#海军线结束
+	#空军线
+	focus = {
+		id = focu_air_line_1
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -9
+		y = 1
+		prerequisite = {
+			focus = focu_Military_line_1
+		}
+		relative_position_id = focu_Military_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_1_center
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = focu_air_line_1_1_01
+			focus = focu_air_line_1_2_01
+		}
+		relative_position_id = focu_air_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_1_center_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_air_line_1_center
+		}
+		relative_position_id = focu_air_line_1_center
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_1_center_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_air_line_1_center
+		}
+		relative_position_id = focu_air_line_1_center
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_center_end
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = focu_air_line_1_center_01
+		}
+		prerequisite = {
+			focus = focu_air_line_1_center_02
+		}
+		relative_position_id = focu_air_line_1_center
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_1_1_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		mutually_exclusive = {
+			focus = focu_air_line_1_2_01
+		}
+		prerequisite = {
+			focus = focu_air_line_1
+		}
+		relative_position_id = focu_air_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_1_1_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_air_line_1_1_01
+		}
+		relative_position_id = focu_air_line_1_1_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_1_1_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = focu_air_line_1_1_02
+		}
+		relative_position_id = focu_air_line_1_1_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_1_2_01
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		mutually_exclusive = {
+			focus = focu_air_line_1_1_01
+		}
+		prerequisite = {
+			focus = focu_air_line_1
+		}
+		relative_position_id = focu_air_line_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_1_2_02
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_air_line_1_2_01
+		}
+		relative_position_id = focu_air_line_1_2_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_1_2_03
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = focu_air_line_1_2_02
+		}
+		relative_position_id = focu_air_line_1_2_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_air_line_1_end
+		icon = GFX_surrender_tiny_flag
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_air_line_center_end
+			focus = focu_air_line_1_1_03
+			focus = focu_air_line_1_2_03
+		}
+		relative_position_id = focu_air_line_center_end
+		completion_reward = {
+		}
+	}
+	#空军线结束
+}
