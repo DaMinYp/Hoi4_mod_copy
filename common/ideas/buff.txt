@@ -32,6 +32,25 @@ ideas = {
 				production_factory_efficiency_gain_facto = 0.1
 			}
 		}
+		focu_industry_line_1_02_idea = {
+			name = "农业机械化"
+			modifier = {
+				monthly_population = 0.2
+				#消费品
+				consumer_goods_factor = -0.1
+			}
+		}
+		focu_industry_line_1_03_idea = {
+			name = "农业机械化"
+			modifier = {
+				#每月人口
+				monthly_population = 0.2
+				#消费品
+				consumer_goods_factor = -0.1
+				#战略资源获取率
+				local_resources_factor = 0.1
+			}
+		}
 	}
 	#工业企业
 	industrial_concern = {

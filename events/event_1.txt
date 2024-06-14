@@ -2,7 +2,7 @@
 country_event = {
 	id = focu_event.1
 	title = "新的国策"
-	desc = "注意！如果选择使用新国策将无法回到原先国策\n重要！！！如果加载了新国策后就不要重复加载了"
+	desc = focu_event.1.t
 	is_triggered_only = yes
 	option = {
 		name = "我受够了，我要换国策！"
