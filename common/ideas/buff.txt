@@ -10,9 +10,10 @@ ideas = {
 		}
 		focu_industry_line_1_01_idea = {
 			name = "五年计划"
+			picture = focu_industry_line_1_01_idea
 			modifier = {
 				#建造速度
-				production_speed_buildings_factor = 0.1
+				production_speed_buildings_factor = 0.15
 				#消费品
 				consumer_goods_factor = -0.25
 			}
@@ -95,6 +96,8 @@ ideas = {
 				fuel_gain_factor_from_states = 0.25
 				#石油获得燃料
 				fuel_gain = 0.25
+				#随行补给
+				no_supply_grace = 168
 			}
 			research_bonus = {
 				industry = 0.35

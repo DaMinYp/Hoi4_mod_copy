@@ -280,7 +280,11 @@ spriteTypes = {
 	#精神
 	SpriteType = {
 		name = "GFX_idea_focu_industry_line_2_idea"
-		texturefile = "gfx/interface/focu_industry_line_2_idea.png"
+		texturefile = "gfx/interfaceideas/ideas/focu_industry_line_2_idea.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_focu_industry_line_1_01_idea"
+		textureFile = "gfx/interface/ideas/focu_industry_line_1_01_idea.dds"
 	}
 	#工业
 	SpriteType = {
