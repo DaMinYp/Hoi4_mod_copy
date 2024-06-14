@@ -97,4 +97,9 @@ spriteTypes = {
 		name = "GFX_idea_focu_industry_line_2_idea"
 		texturefile = "gfx/interface/focu_industry_line_2_idea.png"
 	}
+	#工业
+	SpriteType = {
+		name = "GFX_idea_focu_industry_line_1_04_ind_idea"
+		texturefile = "gfx/interface/focu_industry_line_1_04_ind.png"
+	}
 }

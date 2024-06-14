@@ -10,7 +10,9 @@ buff_decisions = {
 			always = yes
 		}
 		complete_effect = {
-			load_focus_tree = newfocu
+			country_event = {
+				id = focu_event.1
+			}
 		}
 	}
 }

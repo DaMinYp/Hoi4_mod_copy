@@ -8,5 +8,109 @@ ideas = {
 				research_speed_factor = 0.08
 			}
 		}
+		focu_industry_line_1_01_idea = {
+			name = "五年计划"
+			modifier = {
+				#建造速度
+				production_speed_buildings_factor = 0.1
+				#消费品
+				consumer_goods_factor = -0.25
+			}
+		}
+		focu_industry_line_1_2_02_idea = {
+			name = "合理的工业区"
+			modifier = {
+				#消费品
+				consumer_goods_factor = -0.1
+				#工厂产出
+				industrial_capacity_factory = 0.15
+				#建造速度
+				production_speed_buildings_factor = 0.1
+				#生产效率上限
+				production_factory_max_efficiency_factor = 0.2
+				#生产效率增长
+				production_factory_efficiency_gain_facto = 0.1
+			}
+		}
+	}
+	#工业企业
+	industrial_concern = {
+		focu_industry_line_1_04_ind = {
+			name = "国家工业委员会"
+			picture = focu_industry_line_1_04_ind_idea
+			available = {
+				has_focus_tree = focu_industry_line_1_04
+			}
+			modifier = {
+				#战略资源获取率
+				local_resources_factor = 0.2
+				#消费品
+				consumer_goods_factor = -0.2
+				# 地区最大工业值
+				local_building_slots_factor = 0.2
+				#生产效率上限
+				production_factory_max_efficiency_factor = 0.2
+				# 缺乏资源惩罚
+				production_lack_of_resource_penalty_factor = -0.2
+				#工厂产出
+				industrial_capacity_factory = 0.15
+			}
+		}
+	}
+	industrial_concern = {
+		focu_industry_line_2_02_04_ind = {
+			name = "中央科技研究院"
+			available = {
+				has_focus_tree = focu_industry_line_2_02_04
+			}
+			modifier = {
+				# 陆军经验
+				army_experience = 0.15
+				# 海军经验
+				navy_experience = 0.15
+				# 空军经验
+				air_experience = 0.15
+				#研究速度
+				research_speed_factor = 0.35
+				#炼油厂获得燃料
+				fuel_gain_factor_from_states = 0.25
+				#石油获得燃料
+				fuel_gain = 0.25
+			}
+			research_bonus = {
+				industry = 0.35
+				electronics = 0.35
+			}
+		}
+	}
+	industrial_concern = {
+		focu_industry_line_1_2_03_end_ind = {
+			name = "全国规划总局"
+			available = {
+				has_focus_tree = focu_industry_line_1_2_03_end
+			}
+			modifier = {
+				#建造速度
+				production_speed_buildings_factor = 0.1
+				# 军用工厂建造速度
+				production_speed_arms_factory_factor = 0.2
+				# 民用工厂建造速度
+				production_speed_industrial_complex_factor = 0.2
+				# 海军船坞建造速度
+				production_speed_dockyard_factor = 0.2
+				# 基础设施建造速度
+				production_speed_infrastructure_factor = 0.2
+				#工厂产出
+				industrial_capacity_factory = 0.2
+				# 船坞产出
+				industrial_capacity_dockyard = 0.2
+				# 地区最大工业值
+				local_building_slots_factor = 0.3
+			}
+			research_bonus = {
+				industry = 0.15
+				electronics = 0.15
+			}
+		}
 	}
 }
