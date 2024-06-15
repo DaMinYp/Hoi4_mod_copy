@@ -160,7 +160,7 @@ focus_tree = {
 						start_state = PREV
 						target_state = THIS
 						fallback = yes
-						level = 5
+						level = 2
 						build_only_on_allied = no
 					}
 				}
