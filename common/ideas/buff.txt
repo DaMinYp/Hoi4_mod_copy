@@ -35,6 +35,7 @@ ideas = {
 		}
 		focu_industry_line_1_02_idea = {
 			name = "农业机械化"
+			picture = focu_industry_line_1_02_idea
 			modifier = {
 				monthly_population = 0.2
 				#消费品
