@@ -20,6 +20,7 @@ ideas = {
 		}
 		focu_industry_line_1_2_02_idea = {
 			name = "合理的工业区"
+			picture = focu_industry_line_1_2_02_idea
 			modifier = {
 				#消费品
 				consumer_goods_factor = -0.1
@@ -44,6 +45,7 @@ ideas = {
 		}
 		focu_industry_line_1_03_idea = {
 			name = "农业机械化"
+			picture = focu_industry_line_1_02_idea
 			modifier = {
 				#每月人口
 				monthly_population = 0.2
