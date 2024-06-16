@@ -1,0 +1,496 @@
+# 轻武器制造局
+Light_arms_manufacturer = {
+	icon = GFX_idea_Maid_materiel_manufacturer_0
+	name = "123"
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+	}
+	equipment_type = {
+		infantry_equipment
+		support_equipment
+	}
+	research_categories = {
+		infantry_weapons
+		support_tech
+	}
+	visible = {
+		owner = {
+			always = yes
+		}
+	}
+	available = {
+		owner = {
+			has_focus_tree = focu_industry_line_1_01
+		}
+	}
+	tree_header_text = {
+		text = "1"
+		x = 1
+	}
+	tree_header_text = {
+		text = "2"
+		x = 4
+	}
+	tree_header_text = {
+		text = "3"
+		x = 7
+	}
+	initial_trait = {
+		token = "token"
+		name = "所有步兵装备和支援装备"
+		equipment_bonus = {
+			build_cost_ic = -0.1
+		}
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.15
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_01_1
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 1
+			y = 0
+		}
+		equipment_bonus = {
+			reliability = 0.1
+		}
+		production_bonus = {
+			production_capacity_factor = 0.1
+			production_efficiency_cap_factor = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_01_2
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_01_1
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_01_1
+		equipment_bonus = {
+			soft_attack = 0.05
+			breakthrough = 0.02
+		}
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_01_3
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = -1
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_01_2
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_01_2
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_01_4
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_01_3
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_01_3
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_01_5
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_01_4
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_01_4
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_01_6
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 1
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_01_2
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_01_2
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_01_7
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_01_6
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_01_6
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_01_8
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_01_7
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_01_7
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_02_1
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 4
+			y = 0
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_02_2
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_02_1
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_02_1
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_02_3
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_02_2
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_02_2
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_02_4
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_02_3
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_02_3
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_02_5
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_02_4
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_02_4
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_03_1
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 7
+			y = 0
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_03_2
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_03_1
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_03_1
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_03_3
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = -1
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_03_2
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_03_2
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_03_4
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_03_3
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_03_3
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_03_5
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_03_4
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_03_4
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_03_6
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 1
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_03_2
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_03_2
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_03_7
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_03_6
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_03_6
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_03_8
+		name = "123"
+		icon = GFX_generic_mio_department_icon_infantry_production
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+			support_equipment
+		}
+		equipment_bonus = {
+			breakthrough = 0.02
+			build_cost_ic = 0.05
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_03_7
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_03_7
+		production_bonus = {
+		}
+	}
+}
