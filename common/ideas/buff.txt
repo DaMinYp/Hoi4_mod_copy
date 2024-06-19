@@ -1,11 +1,19 @@
 ideas = {
 	country = {
 		focu_industry_line_2_idea = {
-			name = "国家科研基地"
+			name = "国家科研中心"
 			picture = focu_industry_line_2_idea
 			modifier = {
 				#研究速度
 				research_speed_factor = 0.08
+			}
+		}
+		focu_industry_line_2_02_02_idea = {
+			name = "国家科研中心"
+			picture = focu_industry_line_2_idea
+			modifier = {
+				#研究速度
+				research_speed_factor = 0.15
 			}
 		}
 		focu_industry_line_1_01_idea = {
@@ -53,6 +61,16 @@ ideas = {
 				consumer_goods_factor = -0.1
 				#战略资源获取率
 				local_resources_factor = 0.1
+			}
+		}
+		focu_industry_line_2_01_02_idea = {
+			name = "工业委员会"
+			# picture = 
+			modifier = {
+				#工厂产出
+				industrial_capacity_factory = 0.1
+				#建造速度
+				production_speed_buildings_factor = 0.1
 			}
 		}
 	}

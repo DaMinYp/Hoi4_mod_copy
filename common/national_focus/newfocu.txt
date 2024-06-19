@@ -68,6 +68,9 @@ focus_tree = {
 		relative_position_id = focu_industry_line_1
 		completion_reward = {
 			random_owned_controlled_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
@@ -81,6 +84,9 @@ focus_tree = {
 				}
 			}
 			random_owned_controlled_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
 				add_extra_state_shared_building_slots = 4
 				limit = {
 					is_capital = yes
@@ -97,6 +103,9 @@ focus_tree = {
 				}
 			}
 			random_owned_controlled_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
@@ -110,6 +119,9 @@ focus_tree = {
 				}
 			}
 			random_owned_controlled_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
@@ -241,7 +253,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focu_industry_line_1_02
-		icon = GFX_focu_industry_line_1_01_icon
+		icon = GFX_focu_industry_line_1_02_icon
 		cost = 1
 		x = -1
 		y = 1
@@ -255,7 +267,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focu_industry_line_1_03
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focu_industry_line_1_03_icon
 		cost = 1
 		x = 1
 		y = 1
@@ -265,27 +277,33 @@ focus_tree = {
 		relative_position_id = focu_industry_line_1_02
 		completion_reward = {
 			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 4
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
 				add_resource = {
 					type = steel
-					amount = 24
+					amount = 52
 				}
 			}
 			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 4
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
 				add_resource = {
 					type = chromium
-					amount = 24
+					amount = 32
 				}
 			}
 			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 4
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
 				limit = {
 					is_capital = yes
 				}
 				add_resource = {
 					type = aluminium
-					amount = 24
+					amount = 31
 				}
 			}
 			swap_ideas = {
@@ -320,7 +338,6 @@ focus_tree = {
 		relative_position_id = focu_army_line_1_center_end
 		completion_reward = {
 			add_political_power = 50
-			add_research_slot = 1
 			add_ideas = focu_industry_line_2_idea
 		}
 	}
@@ -342,6 +359,9 @@ focus_tree = {
 			}
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 1
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -352,7 +372,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focu_industry_line_2_01_02
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focu_industry_line_2_01_02_icon
 		cost = 1
 		x = 1
 		y = 1
@@ -364,6 +384,7 @@ focus_tree = {
 		}
 		relative_position_id = focu_industry_line_2_01_01
 		completion_reward = {
+			add_ideas = focu_industry_line_2_01_02_idea
 		}
 	}
 	focus = {
@@ -384,7 +405,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focu_industry_line_2_02_01
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focu_industry_line_2_02_01_icon
 		cost = 1
 		x = 1
 		y = 1
@@ -393,6 +414,8 @@ focus_tree = {
 		}
 		relative_position_id = focu_industry_line_2
 		completion_reward = {
+			add_political_power = 100
+			add_research_slot = 1
 		}
 	}
 	focus = {
@@ -406,6 +429,10 @@ focus_tree = {
 		}
 		relative_position_id = focu_industry_line_2_02_01
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = focu_industry_line_2_idea
+				add_idea = focu_industry_line_2_02_02_idea
+			}
 		}
 	}
 	focus = {
@@ -444,7 +471,7 @@ focus_tree = {
 		id = focu_Military_line_1
 		icon = GFX_surrender_tiny_flag
 		cost = 1
-		x = 50
+		x = 40
 		y = 0
 		completion_reward = {
 		}
@@ -1212,6 +1239,537 @@ focus_tree = {
 			focus = focu_politics_line_top
 		}
 		relative_position_id = focu_politics_line_top
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_sta
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_1
+			focus = focu_politics_line_2
+			focus = focu_politics_line_3
+			focus = focu_politics_line_4
+			focus = focu_politics_line_5
+		}
+		relative_position_id = focu_politics_line_3
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_sta_01
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_sta
+		}
+		relative_position_id = focu_politics_line_sta
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_sta_02
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_sta
+		}
+		relative_position_id = focu_politics_line_sta
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_sta_03
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_sta
+		}
+		relative_position_id = focu_politics_line_sta
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_sta_end
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_sta_01
+		}
+		prerequisite = {
+			focus = focu_politics_line_sta_02
+		}
+		prerequisite = {
+			focus = focu_politics_line_sta_03
+		}
+		relative_position_id = focu_politics_line_sta_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = -6
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_sta_end
+		}
+		relative_position_id = focu_politics_line_sta_end
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01_1
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_01
+		}
+		relative_position_id = focu_politics_line_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01_2
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_01_1
+		}
+		relative_position_id = focu_politics_line_01_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01_3
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_01_2
+		}
+		relative_position_id = focu_politics_line_01_2
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01_4
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_01
+		}
+		relative_position_id = focu_politics_line_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01_5
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_01_4
+		}
+		relative_position_id = focu_politics_line_01_4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01_6
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_01_5
+		}
+		relative_position_id = focu_politics_line_01_5
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01_7
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_01
+		}
+		relative_position_id = focu_politics_line_01
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01_8
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_01_7
+		}
+		relative_position_id = focu_politics_line_01_7
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01_9
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_01_8
+		}
+		relative_position_id = focu_politics_line_01_8
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_01_9_end
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_01_3
+		}
+		prerequisite = {
+			focus = focu_politics_line_01_6
+		}
+		prerequisite = {
+			focus = focu_politics_line_01_9
+		}
+		relative_position_id = focu_politics_line_01_6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_02
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_sta_end
+		}
+		relative_position_id = focu_politics_line_sta_end
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_02_1
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_02
+		}
+		relative_position_id = focu_politics_line_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_02_2
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_02
+		}
+		relative_position_id = focu_politics_line_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_02_3
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_02
+		}
+		relative_position_id = focu_politics_line_02
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_02_4
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_02_1
+		}
+		prerequisite = {
+			focus = focu_politics_line_02_2
+		}
+		prerequisite = {
+			focus = focu_politics_line_02_3
+		}
+		relative_position_id = focu_politics_line_02_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_02_5
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_02_1
+		}
+		prerequisite = {
+			focus = focu_politics_line_02_2
+		}
+		prerequisite = {
+			focus = focu_politics_line_02_3
+		}
+		relative_position_id = focu_politics_line_02_2
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_02_6
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_02_4
+		}
+		prerequisite = {
+			focus = focu_politics_line_02_5
+		}
+		relative_position_id = focu_politics_line_02_4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_02_6
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_02_4
+		}
+		prerequisite = {
+			focus = focu_politics_line_02_5
+		}
+		relative_position_id = focu_politics_line_02_4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_02_7
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_02_6
+		}
+		relative_position_id = focu_politics_line_02_6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 6
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_sta_end
+		}
+		relative_position_id = focu_politics_line_sta_end
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_1
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03
+		}
+		relative_position_id = focu_politics_line_03
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_2
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03
+		}
+		relative_position_id = focu_politics_line_03
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_3
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03_1
+		}
+		relative_position_id = focu_politics_line_03_1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_4
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03_3
+		}
+		relative_position_id = focu_politics_line_03_3
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_5
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03_4
+		}
+		relative_position_id = focu_politics_line_03_4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_6
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03_2
+		}
+		relative_position_id = focu_politics_line_03_2
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_7
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03_2
+		}
+		relative_position_id = focu_politics_line_03_2
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_8
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03_2
+		}
+		relative_position_id = focu_politics_line_03_2
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_9
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03_6
+		}
+		relative_position_id = focu_politics_line_03_6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_10
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03_7
+		}
+		relative_position_id = focu_politics_line_03_7
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_11
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03_7
+		}
+		relative_position_id = focu_politics_line_03_7
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = focu_politics_line_03_12
+		icon = GFX_surrender_tiny_flag
+		cost = 0
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = focu_politics_line_03_10
+		}
+		prerequisite = {
+			focus = focu_politics_line_03_11
+		}
+		relative_position_id = focu_politics_line_03_10
 		completion_reward = {
 		}
 	}
