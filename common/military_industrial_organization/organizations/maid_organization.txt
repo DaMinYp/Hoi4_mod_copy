@@ -1,7 +1,7 @@
 # 轻武器制造局
 Light_arms_manufacturer = {
-	icon = GFX_idea_Maid_materiel_manufacturer_0
-	name = "123"
+	# icon = 
+	name = "国家轻武器制造公司"
 	allowed = {
 		has_dlc = "Arms Against Tyranny"
 	}
@@ -20,24 +20,24 @@ Light_arms_manufacturer = {
 	}
 	available = {
 		owner = {
-			has_focus_tree = focu_industry_line_1_01
+			has_focus_tree = focu_industry_line_2_01_01
 		}
 	}
 	tree_header_text = {
-		text = "1"
-		x = 1
+		text = "步兵装备"
+		x = 2.5
 	}
+	# tree_header_text = {
+	# 	text = "武器"
+	# 	x = 4
+	# }
 	tree_header_text = {
-		text = "2"
-		x = 4
-	}
-	tree_header_text = {
-		text = "3"
+		text = "支援装备"
 		x = 7
 	}
 	initial_trait = {
 		token = "token"
-		name = "所有步兵装备和支援装备"
+		name = "轻武器制造商"
 		equipment_bonus = {
 			build_cost_ic = -0.1
 		}
@@ -53,6 +53,9 @@ Light_arms_manufacturer = {
 			x = 1
 			y = 0
 		}
+		limit_to_equipment_type = {
+			infantry_equipment
+		}
 		equipment_bonus = {
 			reliability = 0.1
 		}
@@ -64,14 +67,13 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_01_2
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_infantry_quality
 		position = {
 			x = 0
 			y = 1
 		}
 		limit_to_equipment_type = {
 			infantry_equipment
-			support_equipment
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_01_1
@@ -87,14 +89,13 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_01_3
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_support_conversion
 		position = {
 			x = -1
 			y = 1
 		}
 		limit_to_equipment_type = {
 			infantry_equipment
-			support_equipment
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_01_2
@@ -110,22 +111,20 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_01_4
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_tank_general_weapons
 		position = {
 			x = 0
 			y = 1
 		}
 		limit_to_equipment_type = {
 			infantry_equipment
-			support_equipment
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_01_3
 		}
 		relative_position_id = generic_mio_trait_wide_tracks_01_3
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			soft_attack = 0.05
 		}
 		production_bonus = {
 		}
@@ -133,21 +132,23 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_01_5
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_infantry_quality
 		position = {
 			x = 0
 			y = 1
 		}
 		limit_to_equipment_type = {
 			infantry_equipment
-			support_equipment
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_01_4
 		}
+		mutually_exclusive = {
+			generic_mio_trait_wide_tracks_01_8
+		}
 		relative_position_id = generic_mio_trait_wide_tracks_01_4
 		equipment_bonus = {
-			breakthrough = 0.02
+			breakthrough = 0.03
 			build_cost_ic = 0.05
 		}
 		production_bonus = {
@@ -156,22 +157,20 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_01_6
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_infantry_offense
 		position = {
 			x = 1
 			y = 1
 		}
 		limit_to_equipment_type = {
 			infantry_equipment
-			support_equipment
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_01_2
 		}
 		relative_position_id = generic_mio_trait_wide_tracks_01_2
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			defense = 0.02
 		}
 		production_bonus = {
 		}
@@ -179,22 +178,21 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_01_7
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_infantry_quality
 		position = {
 			x = 0
 			y = 1
 		}
 		limit_to_equipment_type = {
 			infantry_equipment
-			support_equipment
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_01_6
 		}
 		relative_position_id = generic_mio_trait_wide_tracks_01_6
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			soft_attack = 0.05
+			breakthrough = 0.03
 		}
 		production_bonus = {
 		}
@@ -202,22 +200,23 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_01_8
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_infantry_line_efficiency
 		position = {
 			x = 0
 			y = 1
 		}
 		limit_to_equipment_type = {
 			infantry_equipment
-			support_equipment
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_01_7
 		}
+		mutually_exclusive = {
+			generic_mio_trait_wide_tracks_01_5
+		}
 		relative_position_id = generic_mio_trait_wide_tracks_01_7
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			build_cost_ic = -0.1
 		}
 		production_bonus = {
 		}
@@ -225,14 +224,16 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_02_1
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_infantry_quality
 		position = {
 			x = 4
 			y = 0
 		}
+		limit_to_equipment_type = {
+			infantry_equipment
+		}
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			defense = 0.02
 		}
 		production_bonus = {
 		}
@@ -240,7 +241,7 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_02_2
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_infantry_conversion
 		position = {
 			x = 0
 			y = 1
@@ -248,9 +249,12 @@ Light_arms_manufacturer = {
 		all_parents = {
 			generic_mio_trait_wide_tracks_02_1
 		}
+		limit_to_equipment_type = {
+			infantry_equipment
+		}
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			soft_attack = 0.02
+			breakthrough = 0.03
 		}
 		relative_position_id = generic_mio_trait_wide_tracks_02_1
 		production_bonus = {
@@ -259,17 +263,19 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_02_3
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_infantry_conversion
 		position = {
 			x = 0
 			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_02_2
 		}
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			defense = 0.03
 		}
 		relative_position_id = generic_mio_trait_wide_tracks_02_2
 		production_bonus = {
@@ -278,17 +284,20 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_02_4
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_infantry_offense
 		position = {
 			x = 0
 			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_02_3
 		}
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.25
 		}
 		relative_position_id = generic_mio_trait_wide_tracks_02_3
 		production_bonus = {
@@ -297,37 +306,37 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_02_5
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_infantry_line_efficiency
 		position = {
 			x = 0
 			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_02_4
 		}
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
 		}
 		relative_position_id = generic_mio_trait_wide_tracks_02_4
 		production_bonus = {
+			production_efficiency_gain_factor = 0.15
 		}
 	}
 	trait = {
 		token = generic_mio_trait_wide_tracks_03_1
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_support_line_efficiency
 		position = {
 			x = 7
 			y = 0
 		}
 		limit_to_equipment_type = {
-			infantry_equipment
 			support_equipment
 		}
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			defense = 0.02
 		}
 		production_bonus = {
 		}
@@ -335,18 +344,44 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_03_2
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_support_equipment
 		position = {
-			x = 0
+			x = -1
 			y = 1
 		}
 		limit_to_equipment_type = {
-			infantry_equipment
 			support_equipment
 		}
 		equipment_bonus = {
+			defense = 0.02
 			breakthrough = 0.02
-			build_cost_ic = 0.05
+		}
+		mutually_exclusive = {
+			generic_mio_trait_wide_tracks_03_2_2
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_03_1
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_03_1
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_03_2_2
+		name = "123"
+		icon = GFX_generic_mio_department_icon_support_equipment
+		position = {
+			x = 1
+			y = 1
+		}
+		mutually_exclusive = {
+			generic_mio_trait_wide_tracks_03_2
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_03_1
@@ -358,18 +393,17 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_03_3
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_support_production
 		position = {
-			x = -1
+			x = 0
 			y = 1
 		}
 		limit_to_equipment_type = {
-			infantry_equipment
 			support_equipment
 		}
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			build_cost_ic = 0.03
+			breakthrough = 0.03
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_03_2
@@ -381,18 +415,17 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_03_4
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_support_conversion
 		position = {
 			x = 0
 			y = 1
 		}
 		limit_to_equipment_type = {
-			infantry_equipment
 			support_equipment
 		}
 		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
+			build_cost_ic = 0.02
+			defense = 0.03
 		}
 		all_parents = {
 			generic_mio_trait_wide_tracks_03_3
@@ -404,17 +437,18 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_03_5
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_support_equipment
 		position = {
 			x = 0
 			y = 1
 		}
 		limit_to_equipment_type = {
-			infantry_equipment
 			support_equipment
 		}
 		equipment_bonus = {
-			breakthrough = 0.02
+			ap_attack = 0.15
+			breakthrough = 0.05
+			defense = 0.05
 			build_cost_ic = 0.05
 		}
 		all_parents = {
@@ -427,40 +461,38 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_03_6
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
-		position = {
-			x = 1
-			y = 1
-		}
-		limit_to_equipment_type = {
-			infantry_equipment
-			support_equipment
-		}
-		equipment_bonus = {
-			breakthrough = 0.02
-			build_cost_ic = 0.05
-		}
-		all_parents = {
-			generic_mio_trait_wide_tracks_03_2
-		}
-		relative_position_id = generic_mio_trait_wide_tracks_03_2
-		production_bonus = {
-		}
-	}
-	trait = {
-		token = generic_mio_trait_wide_tracks_03_7
-		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_department_icon_tank_general_spg
 		position = {
 			x = 0
 			y = 1
 		}
 		limit_to_equipment_type = {
 			infantry_equipment
-			support_equipment
 		}
 		equipment_bonus = {
-			breakthrough = 0.02
+			hard_attack = 0.05
+		}
+		all_parents = {
+			generic_mio_trait_wide_tracks_03_2_2
+		}
+		relative_position_id = generic_mio_trait_wide_tracks_03_2_2
+		production_bonus = {
+		}
+	}
+	trait = {
+		token = generic_mio_trait_wide_tracks_03_7
+		name = "123"
+		icon = GFX_generic_mio_department_icon_tank_general_at
+		position = {
+			x = 0
+			y = 1
+		}
+		limit_to_equipment_type = {
+			infantry_equipment
+		}
+		equipment_bonus = {
+			hard_attack = 0.02
+			ap_attack = 0.25
 			build_cost_ic = 0.05
 		}
 		all_parents = {
@@ -473,17 +505,17 @@ Light_arms_manufacturer = {
 	trait = {
 		token = generic_mio_trait_wide_tracks_03_8
 		name = "123"
-		icon = GFX_generic_mio_department_icon_infantry_production
+		icon = GFX_generic_mio_trait_icon_ap_attack
 		position = {
 			x = 0
 			y = 1
 		}
 		limit_to_equipment_type = {
 			infantry_equipment
-			support_equipment
 		}
 		equipment_bonus = {
-			breakthrough = 0.02
+			hard_attack = 0.03
+			ap_attack = 0.3
 			build_cost_ic = 0.05
 		}
 		all_parents = {
