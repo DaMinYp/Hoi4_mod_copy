@@ -1,5 +1,14 @@
 ideas = {
 	country = {
+		focu_industry_line_1_idea = {
+			name = "工业计划"
+			modifier = {
+				#建造速度
+				production_speed_buildings_factor = 0.05
+				#消费品
+				consumer_goods_factor = -0.1
+			}
+		}
 		focu_industry_line_2_idea = {
 			name = "国家科研中心"
 			picture = focu_industry_line_2_idea
@@ -117,7 +126,6 @@ ideas = {
 	industrial_concern = {
 		focu_industry_line_1_04_ind = {
 			name = "国家工人协会"
-			picture = focu_industry_line_1_04_ind_idea
 			available = {
 				has_focus_tree = focu_industry_line_1_04
 			}

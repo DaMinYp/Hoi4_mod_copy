@@ -22,6 +22,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = focu_army_line_1_center_end
 		completion_reward = {
+			add_ideas = focu_industry_line_1_idea
 		}
 	}
 	focus = {
@@ -860,7 +861,7 @@ focus_tree = {
 	#海军线
 	focus = {
 		id = focu_naval_line_1
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_SOV_expand_the_red_fleet
 		cost = 1
 		x = 9
 		y = 1
@@ -1029,7 +1030,7 @@ focus_tree = {
 	#空军线
 	focus = {
 		id = focu_air_line_1
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_goal_generic_build_airforce
 		cost = 1
 		x = -9
 		y = 1
