@@ -73,11 +73,50 @@ ideas = {
 				production_speed_buildings_factor = 0.1
 			}
 		}
+		focu_industry_line_1_2_04_end_idea = {
+			name = "帝国工业奇迹"
+			modifier = {
+				#消费品
+				consumer_goods_factor = -0.1
+				#生产效率上限
+				production_factory_max_efficiency_factor = 0.2
+				#生产效率增长
+				production_factory_efficiency_gain_facto = 0.2
+				#贸易关系协定
+				trade_opinion_factor = 0.5
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+				light_tank_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+				medium_tank_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+				heavy_tank_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}
+		}
 	}
 	#工业企业
 	industrial_concern = {
 		focu_industry_line_1_04_ind = {
-			name = "国家工业委员会"
+			name = "国家工人协会"
 			picture = focu_industry_line_1_04_ind_idea
 			available = {
 				has_focus_tree = focu_industry_line_1_04
@@ -118,7 +157,7 @@ ideas = {
 				#石油获得燃料
 				fuel_gain = 0.25
 				#随行补给
-				no_supply_grace = 168
+				no_supply_grace = 108
 			}
 			research_bonus = {
 				industry = 0.35

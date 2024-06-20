@@ -553,6 +553,328 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_2_02_03_icon"
+		texturefile = "gfx/interface/focu_industry_line_2_02_03.png"
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_2_02_03_icon_shine"
+		texturefile = "gfx/interface/focu_industry_line_2_02_03.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_2_02_03.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 2
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_2_02_03.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_1_2_03_icon"
+		texturefile = "gfx/interface/focu_industry_line_1_2_03.png"
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_1_2_03_icon_shine"
+		texturefile = "gfx/interface/focu_industry_line_1_2_03.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_1_2_03.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 2
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_1_2_03.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_2_01_03_icon"
+		texturefile = "gfx/interface/focu_industry_line_2_01_03.png"
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_2_01_03_icon_shine"
+		texturefile = "gfx/interface/focu_industry_line_2_01_03.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_2_01_03.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 2
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_2_01_03.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_1_04_icon"
+		texturefile = "gfx/interface/focu_industry_line_1_04.png"
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_1_04_icon_shine"
+		texturefile = "gfx/interface/focu_industry_line_1_04.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_1_04.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 2
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_1_04.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_1_2_03_end_icon"
+		texturefile = "gfx/interface/focu_industry_line_1_2_03_end.png"
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_1_2_03_end_icon_shine"
+		texturefile = "gfx/interface/focu_industry_line_1_2_03_end.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_1_2_03_end.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 2
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_1_2_03_end.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_2_02_04_icon"
+		texturefile = "gfx/interface/focu_industry_line_2_02_04.png"
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_2_02_04_icon_shine"
+		texturefile = "gfx/interface/focu_industry_line_2_02_04.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_2_02_04.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 2
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_2_02_04.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_1_2_04_end_icon"
+		texturefile = "gfx/interface/focu_industry_line_1_2_04_end.png"
+	}
+	SpriteType = {
+		name = "GFX_focu_industry_line_1_2_04_end_icon_shine"
+		texturefile = "gfx/interface/focu_industry_line_1_2_04_end.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_1_2_04_end.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 2
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/focu_industry_line_1_2_04_end.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
 	#精神
 	SpriteType = {
 		name = "GFX_idea_focu_industry_line_1_01_idea"
