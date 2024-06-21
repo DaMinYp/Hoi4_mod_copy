@@ -4,7 +4,7 @@ buff_decisions:"启动"
 buff_dec_1:"还没有结束！"
 newfocu:"新的终端"
 
-focu_event.1.t:"注意！如果选择使用新国策将无法回到原先国策\n重要！！！如果加载了新国策后就不要重复加载了"
+focu_event.1.t:"注意！如果选择使用新国策将无法回到原先国策\n§R重要！！！如果加载了新国策后就不要重复加载了§"
 focu_politics_line_top:"开始大选！"
 focu_industry_line_1:"国家工业计划"
 focu_industry_line_2:"建立国家科研中心"
@@ -31,9 +31,9 @@ focu_Military_line_1:"新式部队"
 focu_naval_line_1:"扩建海军"
 
 
-
-focu_air_line_1_1_01:"长程飞机"
-focu_air_line_1_2_01:"对地支援"
+focu_air_line_1:"发展空军"
+focu_air_line_1_1_01:"战场支援学说"
+focu_air_line_1_2_01:"战略轰炸学说"
 focu_air_line_1_center:"发展航空工业"
 focu_air_line_1_center_01:"研发新型蓝图"
 focu_air_line_1_center_02:"扩大飞机制造局"
