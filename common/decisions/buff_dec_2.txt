@@ -4,14 +4,12 @@
 # 		fire_only_once = no
 # 		available = {
 # 			is_ai = no
-# 			has_idea = buff
 # 		}
 # 		cost = 0
 # 		visible = {
 # 			always = yes
 # 		}
 # 		complete_effect = {
-# 			remove_ideas = buff
 # 		}
 # 	}
 # }

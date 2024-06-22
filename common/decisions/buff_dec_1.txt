@@ -4,6 +4,15 @@ buff_decisions = {
 		fire_only_once = no
 		available = {
 			is_ai = no
+			if = {
+				limit = {
+					has_focus_tree = newfocu
+				}
+				always = no
+			}
+			else = {
+				always = yes
+			}
 		}
 		cost = 0
 		visible = {

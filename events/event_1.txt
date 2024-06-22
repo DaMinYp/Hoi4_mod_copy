@@ -5,12 +5,23 @@ country_event = {
 	desc = focu_event.1.t
 	is_triggered_only = yes
 	option = {
-		name = "我受够了，我要换国策！"
+		name = "是！"
 		hidden_effect = {
 			load_focus_tree = newfocu
 		}
 	}
 	option = {
-		name = "不不不，我喜欢原滋原味"
+		name = "不！"
+	}
+}
+
+country_event = {
+	id = focu_event.2
+	title = "十六夜上台"
+	desc = focu_event.2.t
+	is_triggered_only = yes
+	# major = yes
+	option = {
+		name = "迎接女王"
 	}
 }

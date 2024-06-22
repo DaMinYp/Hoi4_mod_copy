@@ -1298,6 +1298,9 @@ focus_tree = {
 		}
 		relative_position_id = focu_politics_line_top
 		completion_reward = {
+			country_event = {
+				id = focu_event.2
+			}
 			create_country_leader = {
 				name = "十六夜咲夜"
 				picture = "gfx/leaders/1.png"
