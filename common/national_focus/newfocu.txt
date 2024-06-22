@@ -1283,7 +1283,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focu_politics_line_3
-		icon = GFX_surrender_tiny_flag
+		icon = GFX_focu_politics_line_3_icon
 		cost = x
 		x = 0
 		y = 1
@@ -1298,6 +1298,26 @@ focus_tree = {
 		}
 		relative_position_id = focu_politics_line_top
 		completion_reward = {
+			create_country_leader = {
+				name = "十六"
+				picture = "gfx/leaders/1.png"
+				desc = "123"
+				ideology = fascism_ideology
+				traits = {
+					shiliuye
+				}
+			}
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = "女皇党"
+				name = "女皇党"
+			}
+			#改变国家名字或旗帜
+			# set_cosmetic_tag
 		}
 	}
 	focus = {

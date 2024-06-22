@@ -1,0 +1,11 @@
+leader_traits = {
+	shiliuye = {
+		random = no
+		stability_factor = 0.25
+		political_power_facto = 0.25
+		war_support_facto = 0.25
+		army_attack_factor = 0.1
+		army_morale_factor = 0.08
+		army_org_factor = 0.08
+	}
+}
