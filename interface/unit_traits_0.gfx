@@ -1,0 +1,74 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_01"
+		textureFile = "gfx/traits/unit_traits_1.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_02"
+		textureFile = "gfx/traits/unit_traits_2.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_03"
+		textureFile = "gfx/traits/unit_traits_3.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_04"
+		textureFile = "gfx/traits/unit_traits_4.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_05"
+		textureFile = "gfx/traits/unit_traits_5.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_06"
+		textureFile = "gfx/traits/unit_traits_6.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_07"
+		textureFile = "gfx/traits/unit_traits_7.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_08"
+		textureFile = "gfx/traits/unit_traits_8.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_09"
+		textureFile = "gfx/traits/unit_traits_9.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_10"
+		textureFile = "gfx/traits/unit_traits_10.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_11"
+		textureFile = "gfx/traits/unit_traits_11.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_12"
+		textureFile = "gfx/traits/unit_traits_12.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_13"
+		textureFile = "gfx/traits/unit_traits_13.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_14"
+		textureFile = "gfx/traits/unit_traits_14.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_15"
+		textureFile = "gfx/traits/unit_traits_15.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_16"
+		textureFile = "gfx/traits/unit_traits_16.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_17"
+		textureFile = "gfx/traits/unit_traits_17.png"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_main_unit_18"
+		textureFile = "gfx/traits/unit_traits_18.png"
+	}
+}
