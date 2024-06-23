@@ -1241,6 +1241,24 @@ focus_tree = {
 		x = 15
 		y = 0
 		completion_reward = {
+			#创建将领
+			create_corps_commander = {
+				name = "test"
+				portrait_path = "gfx/leaders/general/main_1.png"
+				ideology = fascism_ideology
+				traits = {
+					brilliant_strategist
+					infantry_leader
+					infantry_expert
+				}
+				skill = 6
+				attack_skill = 5
+				defense_skill = 5
+				planning_skill = 6
+				logistics_skill = 7
+			}
+			#创建元帅
+			# create_field_marsha
 		}
 	}
 	focus = {

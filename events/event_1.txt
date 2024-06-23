@@ -22,6 +22,6 @@ country_event = {
 	is_triggered_only = yes
 	# major = yes
 	option = {
-		name = "迎接女王"
+		name = "迎接吾王"
 	}
 }

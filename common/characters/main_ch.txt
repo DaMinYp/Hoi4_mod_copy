@@ -1,0 +1,25 @@
+character = {
+	main_general_1 = {
+		name = "test"
+		portraits = {
+			army = {
+				large = "gfx/leaders/general/1.png"
+				# small = 
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				infantry_leader
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 7
+			visible = {
+				has_focus_tree = newfocu
+			}
+		}
+	}
+}
