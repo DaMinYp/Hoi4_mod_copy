@@ -1423,7 +1423,7 @@ focus_tree = {
 				logistics_skill = 7
 			}
 			create_field_marshal = {
-				name = "test11"
+				name = "阿托利亚·潘德拉贡"
 				portrait_path = "gfx/leaders/general/leader_15.png"
 				ideology = fascism_ideology
 				traits = {
@@ -1458,6 +1458,81 @@ focus_tree = {
 				defense_skill = 7
 				planning_skill = 5
 				logistics_skill = 7
+			}
+			create_corps_commander = {
+				name = "test13"
+				portrait_path = "gfx/leaders/general/leader_22.png"
+				ideology = fascism_ideology
+				traits = {
+					brilliant_strategist
+					infantry_leader
+					infantry_expert
+					trait_main_unit_09
+					organizer
+					skilled_staffer
+					skilled_staffer
+				}
+				skill = 7
+				attack_skill = 6
+				defense_skill = 7
+				planning_skill = 5
+				logistics_skill = 7
+			}
+			create_corps_commander = {
+				name = "test14"
+				portrait_path = "gfx/leaders/general/leader_23.png"
+				ideology = fascism_ideology
+				traits = {
+					brilliant_strategist
+					infantry_leader
+					infantry_expert
+					trait_main_unit_09
+					organizer
+					skilled_staffer
+					skilled_staffer
+				}
+				skill = 7
+				attack_skill = 6
+				defense_skill = 7
+				planning_skill = 5
+				logistics_skill = 7
+			}
+			create_corps_commander = {
+				name = "test15"
+				portrait_path = "gfx/leaders/general/leader_24.png"
+				ideology = fascism_ideology
+				traits = {
+					brilliant_strategist
+					infantry_leader
+					infantry_expert
+					trait_main_unit_09
+					organizer
+					skilled_staffer
+					skilled_staffer
+				}
+				skill = 7
+				attack_skill = 6
+				defense_skill = 7
+				planning_skill = 5
+				logistics_skill = 7
+			}
+			create_field_marshal = {
+				name = "十六夜咲夜"
+				portrait_path = "gfx/leaders/general/leader_25.png"
+				ideology = fascism_ideology
+				traits = {
+					brilliant_strategist
+					infantry_leader
+					infantry_expert
+					trait_main_unit_03
+					organizer
+					skilled_staffer
+				}
+				skill = 9
+				attack_skill = 9
+				defense_skill = 8
+				planning_skill = 8
+				logistics_skill = 8
 			}
 			#创建元帅
 			# create_field_marsha
