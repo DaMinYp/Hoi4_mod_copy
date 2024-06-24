@@ -1376,7 +1376,7 @@ focus_tree = {
 					brilliant_strategist
 					infantry_leader
 					infantry_expert
-					trait_main_unit_08
+					trait_main_unit_05
 					skilled_staffer
 					organizer
 				}
@@ -1394,7 +1394,7 @@ focus_tree = {
 					brilliant_strategist
 					infantry_leader
 					infantry_expert
-					trait_main_unit_09
+					trait_main_unit_03
 					skilled_staffer
 					organizer
 				}
@@ -1412,7 +1412,7 @@ focus_tree = {
 					brilliant_strategist
 					infantry_leader
 					infantry_expert
-					trait_main_unit_09
+					trait_main_unit_01
 					organizer
 					skilled_staffer
 				}
@@ -1430,7 +1430,7 @@ focus_tree = {
 					brilliant_strategist
 					infantry_leader
 					infantry_expert
-					trait_main_unit_03
+					trait_main_unit_07
 					organizer
 					skilled_staffer
 				}
@@ -1448,7 +1448,7 @@ focus_tree = {
 					brilliant_strategist
 					infantry_leader
 					infantry_expert
-					trait_main_unit_09
+					trait_main_unit_05
 					organizer
 					skilled_staffer
 					skilled_staffer
@@ -1467,7 +1467,7 @@ focus_tree = {
 					brilliant_strategist
 					infantry_leader
 					infantry_expert
-					trait_main_unit_09
+					trait_main_unit_04
 					organizer
 					skilled_staffer
 					skilled_staffer
@@ -1486,7 +1486,7 @@ focus_tree = {
 					brilliant_strategist
 					infantry_leader
 					infantry_expert
-					trait_main_unit_09
+					trait_main_unit_02
 					organizer
 					skilled_staffer
 					skilled_staffer
@@ -1505,7 +1505,7 @@ focus_tree = {
 					brilliant_strategist
 					infantry_leader
 					infantry_expert
-					trait_main_unit_09
+					trait_main_unit_06
 					organizer
 					skilled_staffer
 					skilled_staffer
@@ -1518,7 +1518,7 @@ focus_tree = {
 			}
 			create_field_marshal = {
 				name = "十六夜咲夜"
-				portrait_path = "gfx/leaders/general/leader_25.png"
+				portrait_path = "gfx/leaders/general/leader_26.png"
 				ideology = fascism_ideology
 				traits = {
 					brilliant_strategist
@@ -1600,7 +1600,7 @@ focus_tree = {
 			}
 			create_country_leader = {
 				name = "十六夜咲夜"
-				picture = "gfx/leaders/1.png"
+				picture = "gfx/leaders/general/leader_26.png"
 				desc = "123"
 				ideology = fascism_ideology
 				traits = {
@@ -1616,6 +1616,7 @@ focus_tree = {
 				long_name = "女皇党"
 				name = "女皇党"
 			}
+			custom_effect_tooltip = available_adv_t
 			#改变国家名字或旗帜
 			# set_cosmetic_tag
 		}

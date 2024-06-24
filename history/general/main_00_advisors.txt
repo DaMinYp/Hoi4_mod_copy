@@ -1,0 +1,34 @@
+every_possible_country = {
+	is_ai = no
+	generate_character = {
+		#生成
+		idea_token = yineina		#令牌
+		name = "伊雷娜"
+		advisor = {
+			#顾问
+			slot = political_advisor
+			#slot = political_advisor #类型-政治顾问			
+			#slot = theorist #类型-理论家
+			#slot = army_chief #类型-陆军部长
+			#slot = navy_chief #类型-海军部长
+			#slot = air_chief #类型-空军部长
+			#slot = high_command #类型-总司令
+			#技能 
+			traits = {
+				fortification_engineer
+				monyineina
+			}
+			cost = 0
+			available = {
+				is_ai = no
+				has_completed_focus = focu_politics_line_3
+			}
+			#需求
+		}
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/idea_advisor_icon_01.png"
+			}
+		}
+	}
+}

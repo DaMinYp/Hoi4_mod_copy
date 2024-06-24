@@ -8,6 +8,8 @@ leader_traits = {
 		modifier = {
 			breakthrough_factor = 0.05
 			army_morale_factor = 0.1
+			sickness_chance = -1
+			wounded_chance_factor = -1
 		}
 	}
 	trait_main_unit_02 = {
@@ -19,6 +21,8 @@ leader_traits = {
 		modifier = {
 			breakthrough_factor = 0.05
 			army_morale_factor = 0.1
+			sickness_chance = -1
+			wounded_chance_factor = -1
 		}
 	}
 	trait_main_unit_03 = {
@@ -30,6 +34,8 @@ leader_traits = {
 		modifier = {
 			breakthrough_factor = 0.05
 			army_morale_factor = 0.1
+			sickness_chance = -1
+			wounded_chance_factor = -1
 		}
 	}
 	trait_main_unit_04 = {
@@ -41,6 +47,8 @@ leader_traits = {
 		modifier = {
 			breakthrough_factor = 0.05
 			army_morale_factor = 0.1
+			sickness_chance = -1
+			wounded_chance_factor = -1
 		}
 	}
 	trait_main_unit_05 = {
@@ -52,6 +60,8 @@ leader_traits = {
 		modifier = {
 			breakthrough_factor = 0.05
 			army_morale_factor = 0.1
+			sickness_chance = -1
+			wounded_chance_factor = -1
 		}
 	}
 	trait_main_unit_06 = {
@@ -63,6 +73,8 @@ leader_traits = {
 		modifier = {
 			breakthrough_factor = 0.05
 			army_morale_factor = 0.1
+			sickness_chance = -1
+			wounded_chance_factor = -1
 		}
 	}
 	trait_main_unit_07 = {
@@ -74,127 +86,129 @@ leader_traits = {
 		modifier = {
 			breakthrough_factor = 0.05
 			army_morale_factor = 0.1
+			sickness_chance = -1
+			wounded_chance_factor = -1
 		}
 	}
-	trait_main_unit_08 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
-	trait_main_unit_09 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
-	trait_main_unit_10 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
-	trait_main_unit_11 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
-	trait_main_unit_12 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
-	trait_main_unit_13 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
-	trait_main_unit_14 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
-	trait_main_unit_15 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
-	trait_main_unit_16 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
-	trait_main_unit_17 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
-	trait_main_unit_18 = {
-		type = all
-		trait_type = personality_trait
-		allowed = {
-			always = yes
-		}
-		modifier = {
-			breakthrough_factor = 0.05
-			army_morale_factor = 0.1
-		}
-	}
+	# trait_main_unit_08 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
+	# trait_main_unit_09 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
+	# trait_main_unit_10 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
+	# trait_main_unit_11 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
+	# trait_main_unit_12 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
+	# trait_main_unit_13 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
+	# trait_main_unit_14 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
+	# trait_main_unit_15 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
+	# trait_main_unit_16 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
+	# trait_main_unit_17 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
+	# trait_main_unit_18 = {
+	# 	type = all
+	# 	trait_type = personality_trait
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	modifier = {
+	# 		breakthrough_factor = 0.05
+	# 		army_morale_factor = 0.1
+	# 	}
+	# }
 }

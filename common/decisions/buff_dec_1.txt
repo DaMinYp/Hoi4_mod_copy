@@ -24,16 +24,16 @@ buff_decisions = {
 			}
 		}
 	}
-	buff_dec_2 = {
-		icon = generic_political_actions
-		fire_only_once = no
-		available = {
-		}
-		cost = 0
-		visible = {
-			always = yes
-		}
-		complete_effect = {
-		}
-	}
+	# buff_dec_2 = {
+	# 	icon = generic_political_actions
+	# 	fire_only_once = no
+	# 	available = {
+	# 	}
+	# 	cost = 0
+	# 	visible = {
+	# 		always = yes
+	# 	}
+	# 	complete_effect = {
+	# 	}
+	# }
 }

@@ -1,9 +1,10 @@
 ﻿l_simp_chinese:
-
+#决议
 buff_decisions:"启动"
 buff_dec_1:"还没有结束！"
 newfocu:"新的终端"
 
+#国策
 focu_event.1.t:"§R注意！如果选择使用新国策将无法回到原先国策§"
 focu_politics_line_top:"开始大选！"
 focu_industry_line_1:"国家工业计划"
@@ -19,6 +20,7 @@ focu_industry_line_1_02:"农业机械化"
 focu_industry_line_1_03:"勘察国内资源"
 focu_industry_line_2_01_01:"资助国家武器公司"
 available_mio_t:"§G可用的§ §Y军工机构§:"
+available_adv_t:"§G启用政治顾问:§ §Y伊雷娜§"
 focu_industry_line_2_02_01:"补贴科研人员"
 focu_industry_line_2_01_02:"工业委员会"
 focu_industry_line_2_02_02:"国立中央大学"
@@ -27,10 +29,7 @@ focu_industry_line_1_2_03:"开发油田"
 focu_industry_line_2_01_03:"军工复合体"
 focu_industry_line_1_2_04_end:"帝国工业奇迹"
 focu_Military_line_1:"新式部队"
-
 focu_naval_line_1:"扩建海军"
-
-
 focu_air_line_1:"发展空军"
 focu_air_line_1_1_01:"战场支援学说"
 focu_air_line_1_2_01:"战略轰炸学说"
@@ -44,5 +43,35 @@ focu_air_line_1_1_03:"强化飞行员"
 focu_air_line_1_2_03:"航空专注"
 focu_air_line_1_end:"天上死神"
 
+#领导人特质
 shiliuye:"最好的女仆长"
 focu_event.2.t:"在全场的注视下，十六夜咲夜缓缓走上舞台。她的银发在灯光的照耀下闪烁着微光，如同夜晚的星辰般耀眼而神秘。她那双蓝宝石般的眼睛，深邃而宁静，透射出一种难以言喻的自信与坚定。\n\n她身着一袭简洁优雅的服饰，勾勒出她修长的身姿。两侧的辫子整齐地垂在胸前，末端系着绿色的缎带，增添了一丝柔美。她的步伐轻盈而坚定，每一步都展示出她作为女仆长的从容与自信。\n\n台上的十六夜咲夜，没有多余的言语，只是微微一笑，便已俘获了所有人的目光。她站在舞台中央，略微低头，眼神扫视全场，仿佛在这一瞬间，与每一个人都建立了心灵的连接。\n\n她的气质如夜空中的明月，冷艳却不失温柔，坚定却不失优雅。在她的身上，融合了力量与美丽，智慧与勇气。她没有刻意展示自己的权威，但那份自然流露的威严，却让人不由自主地心生敬畏。\n\n在那一刻，所有人都明白，十六夜咲夜不仅仅是一个卓越的领导者，更是一个值得信赖与依靠的守护者。她的存在，如同一道光芒，为所有人指引着前行的方向。"
+monyineina:"魔女的力量"
+
+
+#将领特质图标名字和描述
+trait_main_unit_01:"性欲"
+trait_main_unit_01_desc:"她的性欲将提高到如此之高的水平，以至于她无法独处。她的余生将被自盟和乞求别人与她性交充斥。"
+
+trait_main_unit_02:"娇喘"
+trait_main_unit_02_desc:"她越淫荡，她的身体就变得越堕落，这将会给她带来更加大的胸部，臀部和紧致的阴道。"
+
+trait_main_unit_03:"心灵融化"
+trait_main_unit_03_desc:"如每达到一次高潮，一段记忆就会被抹去。每次高潮，她的性欲都会经历更强烈的激起。"
+
+trait_main_unit_04:"容器"
+trait_main_unit_04_desc:"除非她体内有相对新鲜的精液沉积，否则她会变得疲惫和虚弱。"
+
+trait_main_unit_05:"子宫痉挛"
+trait_main_unit_05_desc:"只有当精液通过宫颈时才能达到性高潮，直到达到条件，性唤起才会持续建立"
+
+trait_main_unit_06:"忠诚"
+trait_main_unit_06_desc:"被男性滥用让她兴奋，迫使她对男性产生一种强烈的迷恋。不会否定或转移疼痛。"
+
+trait_main_unit_07:"消息传递"
+trait_main_unit_07_desc:"淫秽的思想会投射到她的皮肤上，把她的身体变成一块传达着试图被性交的讯息的油板"
+
+trait_main_unit_07:"奴隶"
+trait_main_unit_07_desc:"不服从男性命令时将会感到不适和疼痛。"
+
+
