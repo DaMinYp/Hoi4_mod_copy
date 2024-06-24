@@ -1534,6 +1534,25 @@ focus_tree = {
 				planning_skill = 8
 				logistics_skill = 8
 			}
+			create_corps_commander = {
+				name = "基恩"
+				portrait_path = "gfx/leaders/general/leader_35.png"
+				ideology = fascism_ideology
+				traits = {
+					brilliant_strategist
+					infantry_leader
+					infantry_expert
+					trait_main_unit_06
+					organizer
+					skilled_staffer
+					skilled_staffer
+				}
+				skill = 7
+				attack_skill = 6
+				defense_skill = 7
+				planning_skill = 5
+				logistics_skill = 7
+			}
 			#创建元帅
 			# create_field_marsha
 			#创建海军将领
