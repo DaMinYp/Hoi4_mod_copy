@@ -2,7 +2,7 @@ every_possible_country = {
 	is_ai = no
 	generate_character = {
 		#生成
-		idea_token = yineina		#令牌
+		idea_token = yineina
 		name = "伊雷娜"
 		advisor = {
 			#顾问
