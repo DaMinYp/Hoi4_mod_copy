@@ -6,10 +6,11 @@ leader_traits = {
 			always = yes
 		}
 		modifier = {
-			breakthrough_factor = 0.05
+			breakthrough_factor = 0.1
 			army_morale_factor = 0.1
 			sickness_chance = -1
 			wounded_chance_factor = -1
+			experience_gain_factor = 0.5
 		}
 	}
 	trait_main_unit_02 = {
@@ -19,10 +20,11 @@ leader_traits = {
 			always = yes
 		}
 		modifier = {
-			breakthrough_factor = 0.05
+			breakthrough_factor = 0.1
 			army_morale_factor = 0.1
 			sickness_chance = -1
 			wounded_chance_factor = -1
+			experience_gain_factor = 0.5
 		}
 	}
 	trait_main_unit_03 = {
@@ -32,10 +34,11 @@ leader_traits = {
 			always = yes
 		}
 		modifier = {
-			breakthrough_factor = 0.05
+			breakthrough_factor = 0.1
 			army_morale_factor = 0.1
 			sickness_chance = -1
 			wounded_chance_factor = -1
+			experience_gain_factor = 0.5
 		}
 	}
 	trait_main_unit_04 = {
@@ -45,10 +48,11 @@ leader_traits = {
 			always = yes
 		}
 		modifier = {
-			breakthrough_factor = 0.05
+			breakthrough_factor = 0.1
 			army_morale_factor = 0.1
 			sickness_chance = -1
 			wounded_chance_factor = -1
+			experience_gain_factor = 0.5
 		}
 	}
 	trait_main_unit_05 = {
@@ -58,10 +62,11 @@ leader_traits = {
 			always = yes
 		}
 		modifier = {
-			breakthrough_factor = 0.05
+			breakthrough_factor = 0.1
 			army_morale_factor = 0.1
 			sickness_chance = -1
 			wounded_chance_factor = -1
+			experience_gain_factor = 0.5
 		}
 	}
 	trait_main_unit_06 = {
@@ -71,10 +76,11 @@ leader_traits = {
 			always = yes
 		}
 		modifier = {
-			breakthrough_factor = 0.05
+			breakthrough_factor = 0.1
 			army_morale_factor = 0.1
 			sickness_chance = -1
 			wounded_chance_factor = -1
+			experience_gain_factor = 0.5
 		}
 	}
 	trait_main_unit_07 = {
@@ -84,10 +90,11 @@ leader_traits = {
 			always = yes
 		}
 		modifier = {
-			breakthrough_factor = 0.05
+			breakthrough_factor = 0.1
 			army_morale_factor = 0.1
 			sickness_chance = -1
 			wounded_chance_factor = -1
+			experience_gain_factor = 0.5
 		}
 	}
 	# trait_main_unit_08 = {

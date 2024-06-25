@@ -24,16 +24,21 @@ buff_decisions = {
 			}
 		}
 	}
-	# buff_dec_2 = {
-	# 	icon = generic_political_actions
-	# 	fire_only_once = no
-	# 	available = {
-	# 	}
-	# 	cost = 0
-	# 	visible = {
-	# 		always = yes
-	# 	}
-	# 	complete_effect = {
-	# 	}
-	# }
+	buff_dec_2 = {
+		icon = generic_political_actions
+		fire_only_once = no
+		available = {
+		}
+		cost = 0
+		visible = {
+			always = yes
+		}
+		complete_effect = {
+			recruit_character = main_general_1
+			recruit_character = main_general_2
+			recruit_character = main_general_3
+			recruit_character = main_general_4
+			recruit_character = main_general_5
+		}
+	}
 }

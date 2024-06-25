@@ -16,4 +16,10 @@ leader_traits = {
 		production_speed_arms_factory_factor = 0.1
 		production_speed_industrial_complex_factor = 0.1
 	}
+	army_infantry_general_2 = {
+		random = no
+		experience_gain_army = 0.08
+		army_attack_factor = 0.15
+		army_org = 0.15
+	}
 }
