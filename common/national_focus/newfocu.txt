@@ -1325,9 +1325,6 @@ focus_tree = {
 				long_name = "女皇党"
 				name = "女皇党"
 			}
-			custom_effect_tooltip = available_adv_t
-			#改变国家名字或旗帜
-			# set_cosmetic_tag
 		}
 	}
 	focus = {

@@ -39,6 +39,12 @@ buff_decisions = {
 			recruit_character = main_general_3
 			recruit_character = main_general_4
 			recruit_character = main_general_5
+			recruit_character = main_general_6
+			recruit_character = main_general_7
+			recruit_character = main_general_8
+			recruit_character = main_general_9
+			recruit_character = main_general_10
+			recruit_character = main_general_11
 		}
 	}
 }

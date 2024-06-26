@@ -23,6 +23,7 @@ characters = {
 				trait_engineer
 				offensive_doctrine
 				commando
+				panzer_leader
 			}
 		}
 	}
@@ -50,6 +51,7 @@ characters = {
 				offensive_doctrine
 				commando
 				trait_engineer
+				panzer_leader
 			}
 		}
 		advisor = {
@@ -91,6 +93,7 @@ characters = {
 				trait_engineer
 				offensive_doctrine
 				commando
+				panzer_leader
 			}
 		}
 		advisor = {
@@ -164,6 +167,7 @@ characters = {
 				infantry_expert
 				offensive_doctrine
 				commando
+				panzer_leader
 			}
 		}
 		advisor = {
@@ -172,6 +176,233 @@ characters = {
 			traits = {
 				army_artillery_3
 				army_logistics_3
+			}
+			cost = 0
+		}
+	}
+	main_general_6 = {
+		name = main_general_6
+		portraits = {
+			army = {
+				large = "gfx/leaders/general/leader_36.png"
+				small = "gfx/interface/ideas/GFX_main_general_6_small.png"
+			}
+		}
+		field_marshal = {
+			skill = 9
+			attack_skill = 7
+			defense_skill = 8
+			planning_skill = 7
+			logistics_skill = 8
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				infantry_expert
+				trait_main_unit_03
+				organizer
+				skilled_staffer
+				offensive_doctrine
+				commando
+				trait_engineer
+				panzer_leader
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = main_general_6
+			allowed = {
+				is_ai = no
+			}
+			available = {
+			}
+			traits = {
+				army_infantry_3
+				army_chief_offensive_3
+			}
+			cost = 0
+		}
+	}
+	main_general_7 = {
+		name = main_general_7
+		portraits = {
+			army = {
+				large = "gfx/leaders/general/leader_38.png"
+				small = "gfx/interface/ideas/GFX_main_general_7_small.png"
+			}
+		}
+		corps_commander = {
+			skill = 7
+			attack_skill = 7
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 7
+			traits = {
+				brilliant_strategist
+				trait_main_unit_01
+				infantry_leader
+				organizer
+				trait_engineer
+				skilled_staffer
+				infantry_expert
+				offensive_doctrine
+				commando
+				panzer_leader
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = main_general_7
+			traits = {
+				army_artillery_3
+				army_logistics_3
+			}
+			cost = 0
+		}
+	}
+	main_general_8 = {
+		name = main_general_8
+		portraits = {
+			army = {
+				large = "gfx/leaders/general/leader_5.png"
+				small = "gfx/interface/ideas/GFX_main_general_8_small.png"
+			}
+		}
+		corps_commander = {
+			skill = 7
+			attack_skill = 7
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 7
+			traits = {
+				brilliant_strategist
+				trait_main_unit_05
+				infantry_leader
+				organizer
+				trait_engineer
+				skilled_staffer
+				infantry_expert
+				offensive_doctrine
+				commando
+				panzer_leader
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = main_general_8
+			traits = {
+				army_artillery_3
+				army_chief_drill_3
+			}
+			cost = 0
+		}
+	}
+	main_general_9 = {
+		name = main_general_9
+		portraits = {
+			army = {
+				large = "gfx/leaders/general/leader_27.png"
+				small = "gfx/interface/ideas/GFX_main_general_9_small.png"
+			}
+		}
+		corps_commander = {
+			skill = 7
+			attack_skill = 7
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 7
+			traits = {
+				brilliant_strategist
+				trait_main_unit_05
+				infantry_leader
+				organizer
+				trait_engineer
+				skilled_staffer
+				infantry_expert
+				offensive_doctrine
+				commando
+				panzer_leader
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = main_general_9
+			traits = {
+				army_chief_entrenchment_3
+				army_chief_reform_2
+			}
+			cost = 0
+		}
+	}
+	main_general_10 = {
+		name = main_general_10
+		portraits = {
+			army = {
+				large = "gfx/leaders/general/leader_12.png"
+				small = "gfx/interface/ideas/GFX_main_general_10_small.png"
+			}
+		}
+		corps_commander = {
+			skill = 7
+			attack_skill = 7
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 7
+			traits = {
+				brilliant_strategist
+				trait_main_unit_06
+				infantry_leader
+				organizer
+				trait_engineer
+				skilled_staffer
+				infantry_expert
+				offensive_doctrine
+				commando
+				panzer_leader
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = main_general_10
+			traits = {
+				army_chief_defensive_3
+				army_chief_planning_2
+			}
+			cost = 0
+		}
+	}
+	main_general_11 = {
+		name = main_general_11
+		portraits = {
+			army = {
+				large = "gfx/leaders/general/leader_22.png"
+				small = "gfx/interface/ideas/GFX_main_general_11_small.png"
+			}
+		}
+		corps_commander = {
+			skill = 7
+			attack_skill = 7
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 7
+			traits = {
+				brilliant_strategist
+				trait_main_unit_05
+				infantry_leader
+				organizer
+				trait_engineer
+				skilled_staffer
+				infantry_expert
+				offensive_doctrine
+				commando
+				panzer_leader
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = main_general_11
+			traits = {
+				army_chief_drill_3
+				army_chief_morale_3
 			}
 			cost = 0
 		}
